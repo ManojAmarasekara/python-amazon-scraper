@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 
     for suggestion in suggestions:
-        extracted_data.append(amazon_service.getBookBasicDetails(suggestion))
+        extracted_data.append(amazon_service.getBookURL(suggestion))
 
     f = open(key+'.json', 'w')
     json.dump(extracted_data, f, indent=4)
