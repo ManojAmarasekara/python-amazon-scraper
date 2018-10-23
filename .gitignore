@@ -1,0 +1,9 @@
+# Don't track content of these folders
+bin/
+include/
+lib/
+
+# Python files
+
+# Other
+*.json
